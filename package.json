@@ -1,0 +1,24 @@
+{
+  "name": "cleanblogproject",
+  "version": "1.0.0",
+  "description": "my own app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pollux571/blogProcject.git"
+  },
+  "keywords": [
+    "blog",
+    "app",
+    "project"
+  ],
+  "author": "Suleyman Bey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pollux571/blogProcject/issues"
+  },
+  "homepage": "https://github.com/Pollux571/blogProcject#readme"
+}
