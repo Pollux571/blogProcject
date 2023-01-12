@@ -25,7 +25,7 @@
       <div class="col-lg-8 col-md-10 mx-auto">
         <% for (const element of photos) {%>
         <div class="post-preview">
-          <a href="post.html">
+          <a href="/photos/<%= element._id %>">
             <h2 class="post-title">
               <%= element.title %>
             </h2>
@@ -35,8 +35,8 @@
           </a>
 
         </div>
-        <%} %>
         <hr>
+        <%} %>
 
 
         <!-- Pager -->

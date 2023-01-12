@@ -30,11 +30,14 @@ app.post("/photos", async (req, res) => {
   res.redirect("/");
 });
 
-app.get("/", (req, res) => {
-  res.render("index");
+app.get("/photos/:id", async (req, res) => {
+  const photo = await Photo.findById(req.params.id);
+  res.render("addpost", {
+    photo,
+  });
 });
 
-app.get("/home", (req, res) => {
+app.get("/", (req, res) => {
   res.render("index");
 });
 
